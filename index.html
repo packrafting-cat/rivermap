@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>River Map — Demo</title>
+
+  <!-- MapLibre GL JS -->
+  <link
+    href="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">🌊</div>
+        <div>
+          <h1>River Map</h1>
+          <p>World river sections</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <label for="search">Buscar</label>
+        <div class="search-wrap">
+          <input
+            id="search"
+            type="search"
+            placeholder="Río o sección..."
+            autocomplete="off"
+          >
+          <button id="clear-search" class="icon-button" title="Borrar búsqueda" aria-label="Borrar búsqueda">×</button>
+        </div>
+
+        <label>Dificultad</label>
+        <div id="difficulty-filters" class="filters">
+          <label class="check">
+            <input type="checkbox" value="II" checked>
+            <span class="difficulty-dot d-II"></span> II
+          </label>
+          <label class="check">
+            <input type="checkbox" value="III" checked>
+            <span class="difficulty-dot d-III"></span> III
+          </label>
+          <label class="check">
+            <input type="checkbox" value="IV" checked>
+            <span class="difficulty-dot d-IV"></span> IV
+          </label>
+          <label class="check">
+            <input type="checkbox" value="IV+" checked>
+            <span class="difficulty-dot d-IVplus"></span> IV+
+          </label>
+          <label class="check">
+            <input type="checkbox" value="V" checked>
+            <span class="difficulty-dot d-V"></span> V
+          </label>
+          <label class="check">
+            <input type="checkbox" value="V+" checked>
+            <span class="difficulty-dot d-Vplus"></span> V+
+          </label>
+        </div>
+
+        <button id="reset-view" class="reset-button">Ver todas las secciones</button>
+      </div>
+
+      <div class="stats">
+        <strong id="section-count">0</strong>
+        <span>secciones visibles</span>
+      </div>
+
+      <div class="hint">
+        <strong>Consejo</strong>
+        <p>Haz clic sobre cualquier tramo del río para ver sus datos.</p>
+      </div>
+    </aside>
+
+    <main class="map-container">
+      <div id="map"></div>
+
+      <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <span>Cargando mapa…</span>
+      </div>
+
+      <button id="mobile-panel-toggle" class="mobile-panel-toggle" aria-label="Abrir controles">
+        ☰
+      </button>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

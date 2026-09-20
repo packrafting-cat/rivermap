@@ -1,0 +1,315 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ETIVE-UPPER-001",
+        "river": "River Etive",
+        "section": "Upper Etive",
+        "country": "Scotland",
+        "region": "Highlands",
+        "difficulty": "IV",
+        "length_km": 8.4,
+        "gradient_m_km": 21,
+        "put_in": "Kinghouse",
+        "take_out": "Old Sheep Trolley",
+        "description": "Sección clásica de aguas bravas en Glen Etive, con varios rápidos encadenados y pasos técnicos.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.919,
+            56.628
+          ],
+          [
+            -4.883,
+            56.604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ARA-UPPER-001",
+        "river": "Río Ara",
+        "section": "Upper Ara",
+        "country": "Spain",
+        "region": "Aragón",
+        "difficulty": "IV+",
+        "length_km": 11.7,
+        "gradient_m_km": 24,
+        "put_in": "Bujaruelo",
+        "take_out": "Torla",
+        "description": "Tramo pirenaico de carácter continuo, especialmente interesante con buen nivel de agua.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.113,
+            42.69
+          ],
+          [
+            -0.014,
+            42.625
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "VERDON-GORGES-001",
+        "river": "Verdon",
+        "section": "Gorges du Verdon",
+        "country": "France",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "difficulty": "III",
+        "length_km": 18.2,
+        "gradient_m_km": 6,
+        "put_in": "Pont du Galetas",
+        "take_out": "Lac de Sainte-Croix",
+        "description": "Gran tramo de aguas profundas dentro de las famosas gargantas del Verdon.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.203,
+            43.812
+          ],
+          [
+            6.271,
+            43.749
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TARA-001",
+        "river": "Tara",
+        "section": "Upper Tara",
+        "country": "Montenegro",
+        "region": "Žabljak",
+        "difficulty": "IV",
+        "length_km": 15.5,
+        "gradient_m_km": 14,
+        "put_in": "Đurđevića Tara",
+        "take_out": "Radovan Luka",
+        "description": "Sección de montaña con agua clara, cañón y numerosos rápidos.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.096,
+            43.153
+          ],
+          [
+            19.305,
+            43.12
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "COLORADO-GC-001",
+        "river": "Colorado River",
+        "section": "Grand Canyon — Marble to Nankoweap",
+        "country": "United States",
+        "region": "Arizona",
+        "difficulty": "IV+",
+        "length_km": 62.0,
+        "gradient_m_km": 1.4,
+        "put_in": "Lees Ferry",
+        "take_out": "Nankoweap",
+        "description": "Tramo representativo del Colorado dentro del Grand Canyon, con grandes rápidos y largas distancias entre desembarcos.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.588,
+            36.856
+          ],
+          [
+            -111.965,
+            36.426
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MEKONG-001",
+        "river": "Mekong",
+        "section": "Mekong North",
+        "country": "Laos",
+        "region": "Luang Prabang",
+        "difficulty": "II",
+        "length_km": 31.4,
+        "gradient_m_km": 0.8,
+        "put_in": "Pak Beng",
+        "take_out": "Luang Prabang",
+        "description": "Tramo de gran río con corriente relativamente tranquila y navegación entre grandes paisajes de montaña.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.011,
+            19.036
+          ],
+          [
+            102.135,
+            19.885
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "UNA-001",
+        "river": "Una",
+        "section": "Upper Una",
+        "country": "Bosnia and Herzegovina",
+        "region": "Una-Sana",
+        "difficulty": "III",
+        "length_km": 13.6,
+        "gradient_m_km": 9,
+        "put_in": "Martin Brod",
+        "take_out": "Kulen Vakuf",
+        "description": "Río de aguas turquesas con rápidos moderados y abundante vegetación de ribera.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.135,
+            44.483
+          ],
+          [
+            16.096,
+            44.69
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LECH-001",
+        "river": "Lech",
+        "section": "Upper Lech",
+        "country": "Austria",
+        "region": "Tyrol",
+        "difficulty": "V",
+        "length_km": 9.2,
+        "gradient_m_km": 31,
+        "put_in": "Steeg",
+        "take_out": "Holzgau",
+        "description": "Sección técnica de montaña con fuerte pendiente y rápidos exigentes.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.296,
+            47.239
+          ],
+          [
+            10.344,
+            47.259
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SOCA-001",
+        "river": "Soča",
+        "section": "Classic Soča",
+        "country": "Slovenia",
+        "region": "Upper Soča Valley",
+        "difficulty": "IV",
+        "length_km": 10.1,
+        "gradient_m_km": 18,
+        "put_in": "Bovec",
+        "take_out": "Trnovo",
+        "description": "Agua alpina y rápidos técnicos en uno de los ríos más conocidos de Eslovenia.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.552,
+            46.337
+          ],
+          [
+            13.751,
+            46.265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SJOA-001",
+        "river": "Sjoa",
+        "section": "Heidal",
+        "country": "Norway",
+        "region": "Innlandet",
+        "difficulty": "V+",
+        "length_km": 7.8,
+        "gradient_m_km": 26,
+        "put_in": "Heidal",
+        "take_out": "Åseng",
+        "description": "Tramo ficticio de dificultad extrema utilizado en esta demo para mostrar el estilo V+.",
+        "wikiloc": "https://www.wikiloc.com/",
+        "guide_url": "https://packrafting.cat/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.915,
+            61.76
+          ],
+          [
+            9.08,
+            61.795
+          ]
+        ]
+      }
+    }
+  ]
+}
